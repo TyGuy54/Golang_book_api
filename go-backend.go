@@ -26,7 +26,7 @@ type book struct {
 var books = []book{
 	{ID: "1", Title: "Cool Book for Cool Dudes", Author: "Adam Demamf", Quantity: 2},
 	{ID: "2", Title: "Magic the Gathering for Dummies", Author: "Tyler Ross", Quantity: 9},
-	{ID: "3", Title: "Smoking Grass 101", Author: "Jobie Donarski", Quantity: 5},
+	{ID: "3", Title: "Treating Cats 101", Author: "Jobie Donarski", Quantity: 5},
 }
 
 func get_books(c *gin.Context) {
